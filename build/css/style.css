@@ -512,3 +512,137 @@ body {
   .block7 .block7two {
     display: flex;
     justify-content: space-between; }
+
+.block8 {
+  padding: 121px 0px 123px 0px;
+  background: url(zima.jpg);
+  background-repeat: no-repeat;
+  background-color: #f8fafb;
+  -moz-background-size: 100%;
+  -webkit-background-size: 100%;
+  -o-background-size: 100%;
+  background-size: 100%; }
+  .block8 .block8flex {
+    display: flex;
+    justify-content: space-between;
+    width: 1150px;
+    margin: 0 auto; }
+    .block8 .block8flex .forma {
+      padding-bottom: 38px;
+      width: 614px;
+      background-color: #021623;
+      opacity: 0.71; }
+      .block8 .block8flex .forma input.form-control.form-control-lg1 {
+        box-shadow: 0 0 30px rgba(21, 21, 21, 0.12);
+        background-color: #021623;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+        height: 60px;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 51px;
+        text-align: left; }
+      .block8 .block8flex .forma input.form-control.form-control-lg3 {
+        height: 160px;
+        background-color: #021623;
+        border-bottom: 1px solid white;
+        border-radius: 0;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 51px;
+        text-align: left; }
+      .block8 .block8flex .forma .buttonfooter {
+        padding-left: 10px;
+        padding-top: 40px; }
+        .block8 .block8flex .forma .buttonfooter a.btn.btn-primary.btn-lg.active {
+          width: 244px;
+          height: 53px;
+          border-radius: 0;
+          background-color: #6eeee4;
+          border: none;
+          opacity: 0.75;
+          color: #000000;
+          font-family: Montserrat;
+          font-size: 18px;
+          font-weight: 400;
+          font-style: normal;
+          letter-spacing: normal;
+          line-height: 28px;
+          text-align: center;
+          text-transform: uppercase;
+          padding-top: 14px; }
+    .block8 .block8flex .addres {
+      padding: 36px 23px 19px 22px;
+      width: 500px;
+      background-color: #021623;
+      opacity: 0.71; }
+      .block8 .block8flex .addres p {
+        max-height: 159px;
+        margin: 0;
+        opacity: 0.7;
+        color: #ffffff;
+        font-family: Raleway;
+        font-size: 15px;
+        font-weight: 400;
+        font-style: normal;
+        letter-spacing: normal;
+        line-height: 24px;
+        text-align: left; }
+      .block8 .block8flex .addres p:nth-child(4) {
+        margin-bottom: 23px; }
+      .block8 .block8flex .addres p:nth-child(6) {
+        margin-bottom: 23px; }
+
+.footer {
+  padding: 93px 0px 93px;
+  background-color: #262b2e; }
+  .footer .block9 {
+    margin: 0 auto;
+    width: 342px; }
+    .footer .block9 .p {
+      display: flex;
+      justify-content: center;
+      opacity: 0.8;
+      color: #ffffff;
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: 400;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 25px;
+      text-align: left;
+      text-transform: uppercase;
+      margin-bottom: 10px; }
+    .footer .block9 .icons {
+      margin-bottom: 43px;
+      display: flex;
+      justify-content: space-between; }
+      .footer .block9 .icons i.fab.fa-pinterest-square.fa-3x {
+        background-color: #71f6eb; }
+      .footer .block9 .icons i.fab.fa-twitter-square.fa-3x {
+        background-color: #8a8a8a;
+        opacity: 0.4; }
+      .footer .block9 .icons i.fab.fa-facebook-square.fa-3x {
+        background-color: #8a8a8a;
+        opacity: 0.4; }
+      .footer .block9 .icons i.fas.fa-basketball-ball.fa-3x {
+        background-color: #8a8a8a;
+        opacity: 0.4; }
+    .footer .block9 .p2 {
+      opacity: 0.4;
+      color: #ffffff;
+      font-family: Raleway;
+      font-size: 16px;
+      font-weight: 500;
+      font-style: normal;
+      letter-spacing: normal;
+      line-height: 25px;
+      text-align: center; }
