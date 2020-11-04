@@ -4,7 +4,7 @@ body {
     max-width: 1440px;
 
     .header {
-        padding: 20px 0px 195px 0px;
+        padding: 20px 0px 129px 0px;
         background-color: #eff0f2;
 
         .logotype {
@@ -102,11 +102,11 @@ body {
                 display: block;
                 padding: 12px 24px;
             
-                color: #333;
-            
-                font-family: 'Roboto', sans-serif;
-                font-size: 20px;
-                font-weight: 600;
+                color: #505050;
+                font-family: Montserrat;
+                font-size: 25px;
+                font-weight: 400;
+                text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
             
                 text-decoration: none;
             
@@ -120,12 +120,19 @@ body {
         }
 
         .text.first {
-            display: flex;
-            justify-content: center;
-            justify-items: center;
+            display: block;
+            margin-bottom: 25px;
+            text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+            color: #505050;
+            font-family: Montserrat;
+            font-size: 45px;
+            font-weight: 700;
+            line-height: 28px;
+            text-align: center;
+            text-transform: uppercase;
         
             span {
-                margin-right: 10px;
+                margin-left: 10px;
                 margin-bottom: 25px;
                 text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
                 color: #505050;
@@ -135,21 +142,24 @@ body {
                 line-height: 28px;
                 text-align: center;
                 text-transform: uppercase;
-            }
-
-            span:nth-child(4) {
                 border: 0px solid #eff0f2;  
                 background-color: #76f4ea;
-
             }
+
         }
         
         .text.second {
             
-            display: flex;
-            justify-content: center;
-            justify-items: center;
+            display: block;
             margin-bottom: 165px;
+            text-shadow: 4px 8px 10px rgba(0, 0, 0, 0.24);
+                color: #505050;
+                font-family: Montserrat;
+                font-size: 45px;
+                font-weight: 700;
+                line-height: 28px;
+                text-align: center;
+                text-transform: uppercase;
 
             span {
                 margin-right: 10px;
@@ -161,12 +171,8 @@ body {
                 line-height: 28px;
                 text-align: center;
                 text-transform: uppercase;
-            }
-
-            span:nth-child(1) {
                 border: 0px solid #eff0f2;  
                 background-color: #76f4ea;
-
             }
         }
 
@@ -176,8 +182,6 @@ body {
             justify-content: center;
             align-items: center;
 
-
-        
             a.btn.btn-primary.btn-lg.active {
                 
                 width: 232px;
@@ -186,7 +190,6 @@ body {
                 border: 1px solid gray;
                 background-color: #eff0f2;
                 border-radius: 0;
-                
                 opacity: 0.75;
                 color: #000000;
                 font-family: Montserrat;
@@ -208,6 +211,7 @@ body {
         }
     }
 }
+
 
 
 .block2 {
@@ -250,18 +254,22 @@ body {
                 line-height: 28px;
                 text-align: center;
                 text-transform: uppercase;
-
-                letter-spacing: 1.02px;
-                    
+                letter-spacing: 1.02px;   
             }
-
         }
 
-        .carousel {
+        .carousel-wrapper {
             margin: 0 auto;
             max-width: 1066px;
             display: flex;
             justify-content: space-between;
+
+            #carouselExampleIndicators.carousel.slide {
+                .carousel-inner {
+                    width: 392px;
+                    height: 483px;
+                }
+            }
 
             .carouselflexright {
                 max-width: 474px;
@@ -470,19 +478,65 @@ body {
         grid-row-gap: 12px;
 
             div {
-                border: 1px solid black;
+        
                 background-color: gray;
             }
 
             div:nth-child(1) {
+                padding: 63px 116px 56px 66px;
                 grid-column: 1/5;
                 grid-row: 1/5;
+                background-color: #6df6eb;
 
+                p:nth-child(1) {
+                     
+                    opacity: 0.83;
+                    color: #000000;
+                    font-family: Merriweather;
+                    font-size: 20px;
+                    font-weight: 700;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 29px;
+                    text-align: left;
+                    text-transform: uppercase;
+                    letter-spacing: 1.2px;
+                    margin-bottom: 38px;
+                }
+
+                p:nth-child(2){
+                    width: 470px;
+                    opacity: 0.75;
+                    color: #000000;
+                    font-family: Raleway;
+                    font-size: 16px;
+                    font-weight: 400;
+                    font-style: normal;
+                    letter-spacing: normal;
+                    line-height: 28px;
+                    text-align: left;
+                    margin-bottom: 75px;
+                }
+                
+                .buttonblock4 {
+                    background-color: #6df6eb;
+
+                    button.btn.btn-secondary.btn-lg {
+                        background-color: #6df6eb;
+                        border: none;
+                        color: grey;
+                    }
+                }
             }
 
             div:nth-child(2) {
                 grid-column: 5/8;
                 grid-row: 1/5;
+                background-color: gray;
+
+                .card-body {
+                    background-color: gray;
+                }
 
             }
 
@@ -509,13 +563,7 @@ body {
                 grid-row: 8/11;
 
             }
-
-            
-
-            
-
-
-            
+     
     }
     
 
@@ -629,22 +677,28 @@ body {
        
     }
 
-    .block6flex {
+    .block6-wrapper {
         max-width: 1165px;
         margin: 0 auto;
         display: flex;
         justify-content: space-between;
         margin-bottom: 30px;
+
+        .carousel-inner {
+            width: 319px;
+            height: 410px;
+        }
     
 
         .textblock6 {
             width: 666px;
+            max-height: 362px;
             background-color: #eaebed;
-           display: flex;
-           justify-items: center;
-           align-items: center;
-           justify-content: center;
-           flex-direction: column;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
             
         
 
@@ -757,7 +811,7 @@ body {
 
 .block8 {
     padding: 121px 0px 123px 0px;
-    background: url(zima.jpg);
+    background: url(christmas_snow_trees-wide.png);
     background-repeat: no-repeat;
     background-color: #f8fafb;
     -moz-background-size: 100%;
@@ -915,22 +969,26 @@ body {
             justify-content: space-between;
 
             i.fab.fa-pinterest-square.fa-3x {
-                background-color: #71f6eb;
+                
+                background-color: #262b2e;
+                color: #71f6eb;
             }
 
             i.fab.fa-twitter-square.fa-3x {
-                background-color: #8a8a8a;
-                opacity: 0.4;
+                background-color: grey;
+                color: #262b2e;
+                background-color: #262b2e;
+                color: grey;
             }
             
             i.fab.fa-facebook-square.fa-3x {
-                background-color: #8a8a8a;
-                opacity: 0.4;
+                background-color: #262b2e;
+                color: grey;
             }
 
             i.fas.fa-basketball-ball.fa-3x {
-                background-color: #8a8a8a;
-                opacity: 0.4;
+                background-color: #262b2e;
+                color: grey;
             }
             
 
@@ -950,3 +1008,5 @@ body {
         }
     }
 }
+
+

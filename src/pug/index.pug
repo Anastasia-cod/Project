@@ -37,15 +37,11 @@ html(lang="en")
                     a.menu__item(href='#') Contact us
 
             .text.first
-                span SAY
-                span HELLO 
-                span TO 
+                |SAY HELLO TO 
                 span SHOPNO!
             .text.second
                 span AGENCY 
-                span CORPORATE 
-                span SHOPNO 
-                span THEME
+                |CORPORATE SHOPNO THEME
             
             .buttonheader
                 a.btn.btn-primary.btn-lg.active(href='#' role='button' aria-pressed='true') CONTACT US
@@ -59,7 +55,7 @@ html(lang="en")
             .block2h3
                 h3 LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE
 
-            .carousel
+            .carousel-wrapper
     
                 #carouselExampleIndicators.carousel.slide(data-ride='carousel')
                     ol.carousel-indicators
@@ -68,18 +64,17 @@ html(lang="en")
                         li(data-target='#carouselExampleIndicators' data-slide-to='2')
                     .carousel-inner
                         .carousel-item.active
-                        img.d-block.w-100(src='img/image.png' alt='1')
+                            img.d-block.w-100(src='img/image.png' alt='1')
                         .carousel-item
-                        img.d-block.w-100(src='img/team_3.png' alt='2')
+                            img.d-block.w-100(src='img/team_3.png' alt='2')
                         .carousel-item
-                        img.d-block.w-100(src='img/image.png' alt='3')
+                            img.d-block.w-100(src='img/image.png' alt='3')
                     a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
                         span.carousel-control-prev-icon(aria-hidden='true')
                         span.sr-only Previous
                     a.carousel-control-next(href='#carouselExampleIndicators' role='button' data-slide='next')
                         span.carousel-control-next-icon(aria-hidden='true')
                         span.sr-only Next
-                    
                     
 
                 
@@ -116,8 +111,21 @@ html(lang="en")
             h3 LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE
 
         .gridblock4
-            div 1
-            div 2
+            div 
+                p Designing is The CooL LOVE FOR.
+                p Our most popular service is our Virtual Receptionist. We know that sometimes it’s something and you middle most this job was posted less than five minutes ago, and we think it’s a good match for you. If you submit a proposal now, you’ll be one of the first candidates. You may even catch the client while they’re still online.
+                .buttonblock4
+                    button.btn.btn-secondary.btn-lg(type='button') 
+                        i.fas.fa-times.fa-1x
+            div 
+                
+                .card-body
+                    h5.card-title COOL PSD DESIGN
+                    p.card-text
+                    | Some quick example text to build on the card title and make up the bulk of the card's content.
+                .card-body
+                    a.card-link(href='#') Card link
+        
             div 3
             div 4
             div 5
@@ -143,9 +151,26 @@ html(lang="en")
         .block6h3
             h3 LOREM IPSUM DOLOR SIT AMET EVENT LANDING TEMPLATE
 
-        .block6flex
-            .bootstrap
-                img(src="img/team_1.png", alt="block6")
+        .block6-wrapper
+        
+            #carouselExampleIndicators.carousel.slide(data-ride='carousel')
+                ol.carousel-indicators
+                    li.active(data-target='#carouselExampleIndicators' data-slide-to='0')
+                    li(data-target='#carouselExampleIndicators' data-slide-to='1')
+                    li(data-target='#carouselExampleIndicators' data-slide-to='2')
+                .carousel-inner
+                    .carousel-item.active
+                        img.d-block.w-100(src='img/team_1.png' alt='1')
+                    .carousel-item
+                        img.d-block.w-100(src='img/team_3.png' alt='2')
+                    .carousel-item
+                        img.d-block.w-100(src='img/image.png' alt='3')
+                a.carousel-control-prev(href='#carouselExampleIndicators' role='button' data-slide='prev')
+                    span.carousel-control-prev-icon(aria-hidden='true')
+                    span.sr-only Previous
+                a.carousel-control-next(href='#carouselExampleIndicators' role='button' data-slide='next')
+                    span.carousel-control-next-icon(aria-hidden='true')
+                    span.sr-only Next
             
             .textblock6
                 .span
@@ -153,7 +178,6 @@ html(lang="en")
                     span / UI/UX DESIGNER
                 .text6
                     |Lorem Ipsum is simply dummy text of the printing and you standard dummy know that text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
-                  
                 img(src="img/5-layers.svg", alt="block6")
 
         .buttonblock6
@@ -209,4 +233,7 @@ html(lang="en")
                 |Copyright Masum Parvej, All Rights Reserved
 
 
+    script(src='https://code.jquery.com/jquery-3.5.1.slim.min.js' integrity='sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj' crossorigin='anonymous')
+    script(src='https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js' integrity='sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN' crossorigin='anonymous')
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js' integrity='sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s' crossorigin='anonymous')
 
